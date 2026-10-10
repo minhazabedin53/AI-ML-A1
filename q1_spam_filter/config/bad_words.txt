@@ -1,0 +1,25 @@
+# BAD WORD LIST - words likely to appear in spam.
+# Matching is case-insensitive and whole-word; every occurrence counts.
+# An entry with a space is a phrase (counted when the words appear together).
+# More than 5 hits in the body (6+) => spam, unless the sender is allow-listed.
+free
+winner
+prize
+cash
+urgent
+lottery
+congratulations
+claim
+guaranteed
+bonus
+discount
+credit
+loan
+million
+inheritance
+bitcoin
+viagra
+cheap
+act now
+click here
+limited time

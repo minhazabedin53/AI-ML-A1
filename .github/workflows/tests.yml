@@ -1,0 +1,36 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python-version: ["3.10", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Question 1 - spam filter agent tests
+        working-directory: q1_spam_filter
+        run: python -m unittest discover -v
+
+      - name: Question 2 - water jugs BFS tests
+        working-directory: q2_water_jugs
+        run: python -m unittest discover -v
+
+      - name: Demo runs
+        run: |
+          cd q1_spam_filter
+          python -m spam_filter --inbox test_data/inbox --out ../demo_output --copy
+          cd ../q2_water_jugs
+          python -m water_jugs

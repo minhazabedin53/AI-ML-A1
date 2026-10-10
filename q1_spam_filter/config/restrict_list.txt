@@ -1,0 +1,5 @@
+# RESTRICT LIST - mail from these domains (or their sub-domains) is always spam.
+# One domain per line. Lines starting with # are comments.
+spammy.biz
+cheap-meds.example
+lottery-winners.example

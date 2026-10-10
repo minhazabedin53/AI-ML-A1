@@ -1,0 +1,13 @@
+[
+  {"name": "Activity 1: jugs 12/8/3, measure 1 gallon", "capacities": [12, 8, 3], "goal": 1, "expected_length": 3},
+  {"name": "Goal reached by a single fill", "capacities": [12, 8, 3], "goal": 12, "expected_length": 1},
+  {"name": "Goal already true in the initial state", "capacities": [12, 8, 3], "goal": 0, "expected_length": 0},
+  {"name": "Jugs 12/8/3, measure 7", "capacities": [12, 8, 3], "goal": 7, "expected_length": 4},
+  {"name": "Jugs 12/8/3, measure 2", "capacities": [12, 8, 3], "goal": 2, "expected_length": 4},
+  {"name": "Classic Die Hard: jugs 5/3, measure 4", "capacities": [5, 3], "goal": 4, "expected_length": 6},
+  {"name": "Jugs 8/5/3, measure 4", "capacities": [8, 5, 3], "goal": 4, "expected_length": 6},
+  {"name": "Jugs 4/3, measure 2", "capacities": [4, 3], "goal": 2, "expected_length": 4},
+  {"name": "Custom start (4,0,0): one pour leaves 1", "capacities": [12, 8, 3], "goal": 1, "initial": [4, 0, 0], "expected_length": 1},
+  {"name": "Unsolvable: goal larger than every jug", "capacities": [12, 8, 3], "goal": 13, "expected_length": null},
+  {"name": "Unsolvable: 6/4 can only make even amounts", "capacities": [6, 4], "goal": 1, "expected_length": null}
+]

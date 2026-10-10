@@ -1,0 +1,6 @@
+# ALLOW LIST - mail from these domains (or their sub-domains) is never spam.
+# One domain per line. Lines starting with # are comments.
+senecapolytechnic.ca
+myseneca.ca
+github.com
+utoronto.ca

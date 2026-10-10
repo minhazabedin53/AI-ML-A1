@@ -1,0 +1,22 @@
+From: HR Team <hr-team@jobs-portal.example>
+To: min.student@myseneca.ca
+Subject: Job description
+Date: Fri, 09 Oct 2026 10:00:00 -0400
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============5752297496258463614=="
+
+--===============5752297496258463614==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Please see the attached job description.
+
+--===============5752297496258463614==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="offer.txt"
+MIME-Version: 1.0
+
+Congratulations! Guaranteed cash bonus. Claim your free credit. Urgent.
+
+--===============5752297496258463614==--

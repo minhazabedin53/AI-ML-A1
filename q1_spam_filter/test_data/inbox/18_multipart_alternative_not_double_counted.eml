@@ -1,0 +1,24 @@
+From: Electronics Store <store@electronics.example>
+To: min.student@myseneca.ca
+Subject: Weekend sale
+Date: Fri, 09 Oct 2026 10:00:00 -0400
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============6171091006059688501=="
+
+--===============6171091006059688501==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Weekend sale: free shipping, a discount on laptops, store credit and a bonus =
+gift.
+
+--===============6171091006059688501==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<html><body><p>Weekend sale: <b>free</b> shipping, a discount on laptops, sto=
+re credit and a bonus gift.</p></body></html>
+
+--===============6171091006059688501==--

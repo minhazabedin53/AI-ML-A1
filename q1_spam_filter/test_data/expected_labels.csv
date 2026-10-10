@@ -1,0 +1,20 @@
+filename,expected_folder,reason
+01_allow_list_with_bad_words.eml,email,allow list beats 10 bad words
+02_restrict_list_clean_body.eml,spam,"restrict list, 0 bad words"
+03_unknown_sender_many_bad_words.eml,spam,9 bad words
+04_exactly_five_bad_words.eml,email,5 bad words is not MORE than 5
+05_six_bad_words.eml,spam,6 bad words
+06_clean_personal_email.eml,email,"0 bad words, unknown sender"
+07_base64_encoded_body.eml,spam,8 bad words hidden in base64
+08_quoted_printable_body.eml,spam,8 bad words in quoted-printable
+09_html_only_body.eml,spam,8 bad words in HTML (CSS ignored)
+10_text_attachment_with_bad_words.eml,spam,8 bad words in a text attachment
+11_binary_attachment_not_readable.eml,email,PDF attachment is not readable text
+12_allow_list_subdomain.eml,email,sub-domain of github.com (allow list)
+13_restrict_list_subdomain.eml,spam,sub-domain of spammy.biz (restrict list)
+14_spoofed_display_name.eml,spam,display name fakes an allowed domain; 7 bad words
+15_uppercase_repeated_bad_words.eml,spam,"case-insensitive, repeats count: 6"
+16_missing_from_header.eml,email,"no sender, 0 bad words"
+17_bad_words_in_subject_only.eml,email,"subject is a header, not the body"
+18_multipart_alternative_not_double_counted.eml,email,4 bad words shown twice (text + HTML) count once
+19_substrings_are_not_bad_words.eml,email,whole words only: 0 bad words
