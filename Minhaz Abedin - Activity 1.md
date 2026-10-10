@@ -5,6 +5,8 @@ subtitle: "Spam Filter Email Agent and Three-Jug Search Problem"
 
 **Name:** Minhaz Abedin  **Student ID:** 171424229  **Date:** October 10, 2026
 
+**Github Repo Test Run**: https://github.com/minhazabedin53/AI-ML-A1/actions/runs/38027636979
+
 All code, tests and test data are in this zip. See `README.md` for how to run them.
 Implementation language: Python 3 (standard library only), structured after the
 textbook's pseudocode and the aima-python reference code.
