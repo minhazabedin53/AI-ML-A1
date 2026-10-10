@@ -31,15 +31,6 @@ cd ../q2_water_jugs
 python -m unittest discover -v      # 22 tests
 ```
 
-### Automatic runs with GitHub Actions
-
-The workflow `.github/workflows/tests.yml` runs both test suites and both demos on every push
-and pull request (Ubuntu and Windows, Python 3.10 and 3.12). To use it:
-
-1. Create a GitHub repository and push the contents of this folder (keep the `.github` folder).
-2. Open the repository's **Actions** tab. The *tests* workflow runs automatically; it can also
-   be started by hand with **Run workflow**.
-
 ## Running the programs
 
 **Question 1 – sort an inbox:**
